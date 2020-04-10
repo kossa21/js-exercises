@@ -5,7 +5,13 @@
 // TIP: Use the .indexOf() method
 
 function remove(arr, valueToRemove) {
-  return; // complete this statement
+
+  var index = arr.indexOf(valueToRemove);
+
+  var firstArray = arr.slice(0, index);
+  var secondArray = arr.slice(index+1, arr.length);
+  
+  return firstArray.concat(secondArray); // complete this statement
 }
 
 /* 

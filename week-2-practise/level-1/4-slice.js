@@ -7,6 +7,11 @@
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 var first5Numbers = first5(numbers);
 
+function first5(arr){
+  five = arr.slice(0, 5);
+  return five;
+}
+
 console.log(first5Numbers);
 
 /* 
