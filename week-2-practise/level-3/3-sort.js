@@ -4,7 +4,11 @@
 
 var nums = [10, 1, 5, 29, 100];
 var nums2 = [11, 6, 3, 29, 12];
-var sortedNums; // complete this statement
+var concatArray = nums.concat(nums2);
+
+function sortArray(a, b) {return a-b;}
+
+var sortedNums = concatArray.sort(sortArray); // complete this statement
 
 console.log(sortedNums);
 
